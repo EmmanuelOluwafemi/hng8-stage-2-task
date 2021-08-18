@@ -4,6 +4,7 @@ import Styled from 'styled-components'
 
 // images
 import avatar from '../assets/emaz.jpg'
+import logo from '../assets/logo.svg'
 
 const Header = () => {
 
@@ -13,6 +14,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <div className="contain">
+                <a href="https://internship.zuri.team/" className="logo"><img className="logo" src={logo} alt="HNG logo" /></a>
                 <img src={avatar} alt="Emmanuel Yusuf" />
             </div>
         </StyledHeader>
@@ -24,7 +26,7 @@ export default Header
 const StyledHeader = Styled.section`
     width: 100%;
     height: 250px;
-    background: #171A27;
+    background: #faf5f5;
     padding: 0 10%;
 
     @media (max-width: 768px) {
@@ -45,6 +47,10 @@ const StyledHeader = Styled.section`
             bottom: -75%;
             transform: translateY(-50%);
             border-radius: 50%;
+
+            &.logo {
+                bottom: 10%;
+            }
 
             @media (max-width: 768px) {
                 bottom: -60%;
