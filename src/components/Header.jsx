@@ -24,7 +24,7 @@ export default Header
 const StyledHeader = Styled.section`
     width: 100%;
     height: 250px;
-    background: linear-gradient(92.42deg, #171A27 48.5%, #367DEC 140.07%);
+    background: #171A27;
     padding: 0 10%;
 
     @media (max-width: 768px) {
