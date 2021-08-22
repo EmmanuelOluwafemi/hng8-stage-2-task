@@ -38,6 +38,20 @@ const Timeline = () => {
                 </ul>
             </ul>
 
+            {/* Projects */}
+            <h1>Recent Projects</h1>
+            <a href="https://google-docs-clone-sandy.vercel.app/">Google Docs Clone</a>
+            <p>Created a Clone of Google docs for learning purpose using Nextjs, TailwindCss, Firebase and Next-auth</p>
+            <br />
+            <a href="https://cheks.ng/">CheksNg</a>
+            <p>Online Market place using react, styled-components, context-api</p>
+            <br />
+            <a href="https://www.sophisticateddev.com/">SophisticatedDev Portfolio</a>
+            <p>Portfolio Implementation for Sophisticated dev using React, Styled-components, Gsap and framer-motion</p>
+            <br />
+            <a href="https://www.dashouts.com/">Dashouts</a>
+            <p>Multi-tasking errand solution app landing page React, Gatsby, GraphQl, Gsap and Styled-components</p>
+
             {/* Education */}
             <br /><br /><br />
             <h1>Education</h1>
@@ -64,12 +78,20 @@ const StyledTimeline = Styled.section`
     }
 
     h1 {
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: #161927;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000;
         padding-bottom: .75rem;
         border-bottom: 1px solid #E5E5E5;
         margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #161927;
+        font-size: 1.3rem;
+        font-weight: 600;
     }
 
     ul {
